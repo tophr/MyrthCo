@@ -22,10 +22,6 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<!--<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_directory' ); ?>/lightbox.css" media="screen,projection" type="text/css" />
-<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/scripts/prototype.js"></script>
-<script type="text/javascript" src="<?php bloginfo( 'stylesheet_directory' ); ?>/scripts/lightbox.js"></script>-->
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php
 	if ( is_singular() && get_option( 'thread_comments' ) )
@@ -33,7 +29,6 @@
 	wp_head();
 ?>
 <script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-1588431-1']);
   _gaq.push(['_trackPageview']);
